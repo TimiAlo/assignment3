@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style/workexperience.css" />
+
+
+	<meta charset=utf-8>
+	<meta name="description" content="A home page that describes my education, work experience, and projects">
+	<meta name="keywords" content="education, resume, Timi, work, projects">
+	<meta name="author" content="Timi Alo">
+	<meta name="viewport" content="width = device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+	<header id="pageTop">
+
+
+		<nav>
+
+			<ol>
+				<a href="#education">My Education </a>
+			</ol>
+			<ol>
+				<a href="#workexperience">My Work Experience</a>
+			</ol>
+			<ol><a href="#coursestaken">List of Courses Taken</a></ol>
+			<ol><a href="#form">Contact Me</a> </ol>
+		</nav>
+
+
+
+	</header>
+	<main>
+		<div id="wrapper">
+			<div>
+				<article>
+					<img src="images/IMG_2384.JPG" width="300" height="300" alt="A picture of Timi Alo"
+						title="A picture of me" />
+					<p>
+						My name is Timi Alo and this webpage summarizes everything you need to know about my hobbies,
+						work
+						experience, and education. My hobbies inlude: solving complex problems, cooking, watching
+						soccer,
+						and reading.
+
+					</p>
+				</article>
+
+			</div>
+			<br>
+			<div id="education">
+				<article>
+					<p>
+						Education <br>
+						2016-2021 <br>
+						MOUNT ROYAL UNIVERSITY <br>
+						I graduated Mount Royal University in 2021 with a Bachelors in Computer Information Systems with
+						a
+						minor in business. During my time here, I took numerous web development, computer, programming,
+						database, and business courses.
+
+						More coursework done includes: Programming, use of HTML, CSS, Microsoft Outlook, Oracle, PHP,
+						SQL,
+						JavaScript, and developing web applications.
+
+
+
+					</p>
+				</article>
+
+			</div>
+			<br>
+			<div id="workexperience">
+				<article>
+					<p>
+						Work Experience <br>
+						Dangote Inc.<br>
+						2021-present <br>
+						Currently working as a database administrator at Dangote Inc.. My responsibilities includes:
+						installing database servers, optimizing database security, installing database applications,
+						troubleshooting database errors, creating automative database tasks.
+
+					</p>
+				</article>
+
+			</div>
+			<br>
+			<div>
+				<video id="video" poster="resources/preview.png" controls width="480" height="360">
+					<source src="resources/sample.mp4" type='video/mp4'>
+					<source src="resources/sample.webm" type='video/webm'>
+					<source src="resources/sample.ogv" type='video/ogg'>
+				</video>
+			</div>
+
+			<br>
+			<div id="coursestaken">
+				<article>
+					<p>
+						Courses Taken <br>
+						Here is a list of some core courses that I took at Mount Royal University.<br>
+						<ol>Programming 1,2,and 3</ol>
+						<ol>Web Development 1 and 2</ol>
+						<ol>Database 1 and 2</ol>
+						<ol>Marketing 2150</ol>
+						<ol>Management </ol>
+						<ol>Games Development</ol>
+						<ol>Information Systems Organization</ol>
+						<ol>Computer Securit</ol>
+						<ol>Network Infrastructure</ol>
+						<ol>Project Management</ol>
+						<ol>Systems Administration</ol>
+						<ol>Systems Analysis</ol>
+					</p>
+				</article>
+
+			</div>
+			<br>
+			<div id="form">
+				<h2>Please fill the form below in order to contact me</h2>
+				<form action="mailto: oalo814@mtroyal.ca" method="POST" id="userform">
+					<input type="hidden" name="subject" value="Customer Enquiry Form">
+					<fieldset>
+						<p>
+							<label> Name*:
+								<input name=name type="text" maxlength="20" size="25" required>
+							</label>
+							<br />
+						</p>
+						<p>
+							<label> Email*:
+								<input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+									required>
+							</label>
+							<br />
+						</p>
+						<p>
+							<label> Telephone Number:
+								<input name="telephone number" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[0-9]{4}">
+							</label>
+							<br />
+						</p>
+						<label> Subject of Enquiry:*
+							<input name=subject type=text maxlength=30 size=35 required />
+						</label>
+						<br />
+						</p>
+						<p>
+							<label> Details of Enquiry*:
+								<textarea name=details form=userform row=5 col=50 placeholder="Enter enquiry here"
+									required></textarea>
+								<input type="submit" value="submit" />
+								<input type="reset" value="clear" />
+
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
