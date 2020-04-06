@@ -1,0 +1,257 @@
+:root{
+	--main-bg-color: yellow;
+	--other-bg-color:gold;
+	--main-heading-color: green;
+	--main-border-color:black;
+	--other-border-color:white;
+	--main-table-color:cornflowerblue;
+    --other-table-color:greenyellow;
+   
+
+}
+
+/* This media was built for large devices*/
+@media only screen and (min-width: 1024px) and (max-width:1700px)
+{
+	
+	div{
+		
+		border:2px solid var(--main-border-color);
+	width:1200px;
+	margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    
+
+    font-family: Helvetica, sans-serif; 
+	}
+nav{
+	border: var(--main-border-color);
+	Height: 100%;
+    Width:100%;
+    display:flex;
+    align-items: center;
+	Background:royalblue;
+	background-color: var(--other-bg-color); font-family: Helvetica, sans-serif; 
+	
+		} 
+a{
+		 font-weight: bold;
+		 align-items: center;
+		  background-color: var(--main-bg-color); 
+		  border: 1px solid var(--main-border-color) ;
+		padding: 5px 15px;
+		border-radius: 20%; 
+		
+	}
+
+
+
+a:visited{
+	color: var(--main-border-color);
+}
+header{
+	border:1px solid var(--main-border-color);
+}
+footer{
+	background-color: var(--main-table-color);
+	border:1px solid var(--main-border-color);
+}
+article{
+	border:1px solid var(--main-border-color);
+	margin: 30px, 50px;
+    padding: 30px;
+    background-color: var(--main-table-color);
+}
+
+main{
+	font-family:'Times New Roman', Times, serif;
+	margin: 30px, 50px;
+	padding: 30px;
+	font-size: 110%;
+	
+}
+
+	form{
+        background-color: var(--main-table-color);
+    }
+h2{
+	color: var(--main-border-color);
+}
+
+
+}
+
+/* This media was built for medium devices*/
+
+@media only screen and (min-width: 768px) and (max-width:1023px)
+{
+    
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+display: grid;
+ grid-template-columns: 1fr; 
+ grid-gap: 10px;
+height:100%;
+	 }
+	 article{
+        border: 1px var(--main-border-color);
+        border-radius: 10px;
+        background-color: var(--main-bg-color);
+        /*height:50px;*/
+        font-size: 50px;
+	  }
+	  
+
+
+nav{
+	border:1px solid var(--main-border-color);
+	
+	display: flex;
+	justify-content: center;
+	 align-items:center; 
+	 flex-direction: column;
+	
+	Height: 100%;
+	Width:100%;
+	Background:var(--other-border-color);
+		
+	
+			position:sticky;
+	
+		background-color: var(--other-bg-color); font-family: Helvetica, sans-serif; 
+	
+		} 
+a{
+		 font-weight: bold;
+		  font-size: 20%; 
+		  background-color: var(--main-bg-color); 
+		  border: 1px solid var(--main-border-color) ;
+		padding: 5px 15px;
+		border-radius: 20%; 
+		
+	}
+
+
+
+a:visited{
+	color: var(--main-border-color);
+}
+header{
+	border:1px solid var(--main-border-color);
+}
+footer{
+	background-color: var(--other-border-color);
+	border:1px solid var(--main-border-color);
+}
+article{
+	border:1px solid var(--main-border-color);
+	margin: 30px, 50px;
+    padding: 30px;
+     background-color: var(--main-table-color);
+}
+section{
+	border:1px solid var(--main-border-color);
+	margin: 30px, 50px;
+	padding: 30px;
+}
+main{
+	font-family:'Times New Roman', Times, serif;
+	margin: 30px, 50px;
+	padding: 30px;
+    font-size: 110%;
+    
+}
+
+	
+h2{
+	color: var(--main-heading-color);
+}
+}
+
+
+/* This media was built for small devices*/
+
+@media only screen and (min-width: 200px) and (max-width: 768px)
+{
+main {
+	text-align: center;
+display: grid;
+ grid-template-columns: 1fr; 
+ grid-gap: 5px;
+height:100%;
+	 }
+	 
+nav{
+	border:1px solid var(--main-border-color);
+	
+	display: flex;
+	justify-content: center;
+	 align-items:center; 
+	 flex-direction: column;
+	
+	Height: 100%;
+	Width:100%;
+	Background:var(--other-border-color);
+		
+	
+			position:sticky;
+	
+		background-color: var(--other-bg-color); font-family: Helvetica, sans-serif; 
+	
+		} 
+a{
+		 font-weight: bold;
+		  font-size: 50%; 
+		  background-color: var(--main-bg-color); 
+		  border: 1px solid var(--main-border-color);
+		padding: 5px 15px;
+		border-radius: 20%; 
+		
+	}
+
+
+
+
+header{
+	border:1px solid var(--main-border-color);
+}
+footer{
+	background-color: var(--other-border-color);
+	border:1px solid var(--main-border-color);
+}
+article{
+	border:1px solid var(--main-border-color);
+	margin: 30px, 50px;
+	padding: 30px;
+}
+section{
+	border:1px solid var(--main-border-color);
+	margin: 30px, 50px;
+	padding: 30px;
+}
+main{
+	font-family:'Times New Roman', Times, serif;
+	margin: 30px, 50px;
+	padding: 30px;
+	font-size: 50%;
+    
+	
+}
+
+
+	
+h2{
+	color:var(--main-heading-color);
+}
+div{
+	border-color: var(--main-bg-color);
+}
+}
+
+
+
+	
